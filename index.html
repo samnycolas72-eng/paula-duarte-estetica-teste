@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Paula Duarte Estética em Divinópolis | Biomédica Esteta e Tricologista</title>
+    <meta
+      name="description"
+      content="Paula Duarte Estética em Divinópolis: biomédica esteta e tricologista. Conheça serviços de estética, tricologia e solicite seu agendamento pelo WhatsApp."
+    />
+    <meta name="theme-color" content="#f6efe3" />
+    <meta property="og:title" content="Paula Duarte Estética em Divinópolis" />
+    <meta
+      property="og:description"
+      content="Cuidado, acolhimento e atendimento personalizado em estética e tricologia. Solicite atendimento pelo WhatsApp."
+    />
+    <meta property="og:type" content="website" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#inicio">Pular para o conteúdo</a>
+
+    <header class="site-header" id="topo">
+      <nav class="nav container" aria-label="Menu principal">
+        <a class="brand" href="#inicio" aria-label="Paula Duarte Estética - início">
+          <img class="brand-logo" src="assets/logo-paula-duarte.png" alt="Paula Duarte Clínica de Estética" />
+        </a>
+
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span class="sr-only">Abrir menu</span>
+        </button>
+
+        <div class="menu" id="site-menu">
+          <a href="#inicio">Início</a>
+          <a href="#sobre">Sobre Paula</a>
+          <a href="#servicos">Serviços</a>
+          <a href="#espaco">Espaço</a>
+          <a href="#duvidas">Dúvidas</a>
+          <a href="#contato">Contato</a>
+          <a class="btn btn-small btn-primary" data-whatsapp="Olá, Paula! Vi seu site e gostaria de agendar uma avaliação." href="#agendamento">
+            Agendar pelo WhatsApp
+          </a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="inicio">
+      <section class="hero section-pad">
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Paula Duarte Estética • Divinópolis</p>
+            <h1>Realce sua beleza <span>de forma natural</span></h1>
+            <p class="hero-text hero-lead">
+              E viva sua melhor versão com mais confiança, bem-estar e liberdade.
+            </p>
+            <p class="hero-text">
+              Na <strong>Clínica Paula Duarte</strong>, cada detalhe foi pensado para valorizar sua essência com segurança, acolhimento e protocolos personalizados em estética e tricologia.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-primary" data-whatsapp="Olá, Paula! Vi seu site e gostaria de agendar minha avaliação." href="#agendamento">
+                Agendar minha avaliação agora
+              </a>
+            </div>
+          </div>
+
+          <div class="hero-card reveal" aria-label="Imagem principal de Paula Duarte">
+            <div class="hero-portrait-wrap">
+              <div class="photo-placeholder photo-main">
+                <span>Foto profissional de Paula Duarte</span>
+                <small>Substitua por uma imagem real em <code>config.js</code></small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="services section-pad" id="servicos">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Serviços</p>
+            <h2>Tratamentos selecionados para beleza, pele e bem-estar.</h2>
+            <p>
+              Serviços apresentados de forma clara e sofisticada, com indicação responsável após avaliação individual.
+            </p>
+          </div>
+          <div class="services-grid" id="services-grid" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section class="space section-pad" id="espaco">
+        <div class="container">
+          <div class="section-heading reveal">
+            <p class="eyebrow">Espaço</p>
+            <h2>Um espaço acolhedor para uma nova experiência.</h2>
+            <p>
+              Fotos da recepção e detalhes do espaço ajudam a transmitir conforto, confiança e o cuidado presente em cada atendimento.
+            </p>
+          </div>
+          <div class="gallery reveal" id="space-gallery">
+            <div class="gallery-item placeholder-item">Adicionar foto real do ambiente</div>
+            <div class="gallery-item placeholder-item">Adicionar recepção ou sala</div>
+            <div class="gallery-item placeholder-item">Adicionar detalhe do espaço</div>
+          </div>
+        </div>
+      </section>
+
+      <section class="booking section-pad" id="agendamento">
+        <div class="container booking-grid">
+          <div class="booking-copy reveal">
+            <p class="eyebrow">Agendamento</p>
+            <h2>Comece sua jornada de cuidado com uma avaliação.</h2>
+            <p>
+              Envie sua solicitação pelo WhatsApp com as informações principais. A equipe retorna para confirmar disponibilidade e próximos passos.
+            </p>
+            <div class="privacy-note">
+              <strong>Privacidade:</strong> este formulário usa apenas os dados preenchidos para montar uma mensagem no WhatsApp. Não solicitamos dados clínicos ou informações sensíveis pelo site.
+            </div>
+          </div>
+
+          <form class="booking-form reveal" id="booking-form">
+            <div class="form-field">
+              <label for="name">Nome</label>
+              <input id="name" name="name" type="text" autocomplete="name" required placeholder="Seu nome" />
+            </div>
+            <div class="form-field">
+              <label for="phone">WhatsApp</label>
+              <input id="phone" name="phone" type="tel" autocomplete="tel" required placeholder="(37) 00000-0000" />
+            </div>
+            <div class="form-field">
+              <label for="service">Serviço de interesse</label>
+              <select id="service" name="service" required>
+                <option value="">Selecione</option>
+              </select>
+            </div>
+            <div class="form-row">
+              <div class="form-field">
+                <label for="day">Preferência de dia</label>
+                <input id="day" name="day" type="text" required placeholder="Ex.: terça-feira" />
+              </div>
+              <div class="form-field">
+                <label for="period">Período</label>
+                <select id="period" name="period" required>
+                  <option value="">Selecione</option>
+                  <option>Manhã</option>
+                  <option>Tarde</option>
+                  <option>Noite</option>
+                </select>
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="message">Mensagem opcional</label>
+              <textarea id="message" name="message" rows="4" placeholder="Conte brevemente o que deseja, sem incluir dados sensíveis."></textarea>
+            </div>
+            <button class="btn btn-primary btn-full" type="submit">Solicitar agendamento</button>
+            <p class="form-help">Você será direcionado ao WhatsApp com a mensagem pronta para envio.</p>
+          </form>
+        </div>
+      </section>
+
+      <section class="about section-pad" id="sobre">
+        <div class="container about-grid">
+          <div class="portrait-card reveal">
+            <div class="photo-placeholder portrait">
+              <span>Foto real de Paula Duarte</span>
+              <small>Não substituir por pessoa gerada</small>
+            </div>
+          </div>
+          <div class="about-copy reveal">
+            <p class="eyebrow">Sobre Paula</p>
+            <h2>Uma experiência pensada para realçar sua melhor versão.</h2>
+            <p>
+              Paula Duarte é <strong>biomédica esteta e tricologista</strong>. Seu atendimento une técnica, sensibilidade e planejamento individual para construir resultados naturais, seguros e alinhados à sua rotina.
+            </p>
+            <p>
+              Cada protocolo começa com uma conversa cuidadosa para entender objetivos, histórico e expectativas. O site está preparado para receber certificações, registros e diferenciais profissionais confirmados pela Paula.
+            </p>
+            <a class="text-link" data-whatsapp="Olá, Paula! Vi seu site e gostaria de conversar sobre uma avaliação individual." href="#agendamento">
+              Conversar sobre avaliação
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section class="faq section-pad" id="duvidas">
+        <div class="container faq-grid">
+          <div class="section-heading sticky-heading reveal">
+            <p class="eyebrow">Dúvidas</p>
+            <h2>Perguntas frequentes</h2>
+            <p>Respostas curtas para ajudar no primeiro contato. Orientações específicas devem ser validadas com a profissional.</p>
+          </div>
+          <div class="faq-list reveal">
+            <details open>
+              <summary>Como faço para agendar?</summary>
+              <p>Você pode solicitar o atendimento pelo WhatsApp. A equipe confirma as opções de data e horário disponíveis.</p>
+            </details>
+            <details>
+              <summary>Onde fica a Paula Duarte Estética?</summary>
+              <p>Rua Candeias, nº 960, São José, Divinópolis – MG.</p>
+            </details>
+            <details>
+              <summary>Preciso passar por avaliação inicial?</summary>
+              <p>A avaliação individual ajuda a entender suas necessidades e orientar a indicação mais adequada.</p>
+            </details>
+            <details>
+              <summary>Como devo me preparar para o atendimento?</summary>
+              <p>As orientações variam por procedimento e devem ser confirmadas com a profissional antes do atendimento.</p>
+            </details>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section-pad" id="contato">
+        <div class="container contact-grid">
+          <div class="contact-card reveal">
+            <p class="eyebrow">Localização e contato</p>
+            <h2>Paula Duarte Estética</h2>
+            <address>Rua Candeias, nº 960, São José, Divinópolis – MG.</address>
+            <div class="contact-actions">
+              <a class="btn btn-primary" data-whatsapp="Olá, Paula! Vi seu site e gostaria de falar com você." href="#">WhatsApp</a>
+              <a class="btn btn-outline" id="route-link" target="_blank" rel="noopener noreferrer" href="#">Como chegar</a>
+              <a class="btn btn-outline" data-instagram-link target="_blank" rel="noopener noreferrer" href="#">Instagram</a>
+            </div>
+            <div class="editable-hours">
+              <strong>Horários de funcionamento</strong>
+              <p id="opening-hours">Editar horários em config.js.</p>
+            </div>
+          </div>
+          <div class="clinic-image-card reveal" aria-label="Imagem de cuidado estético na clínica">
+            <div class="clinic-image-copy">
+              <span>Cuidado, beleza e bem-estar</span>
+              <small>Atendimento pensado para uma experiência tranquila e acolhedora.</small>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand footer-brand" href="#inicio">
+            <span class="brand-mark" aria-hidden="true">PD</span>
+            <span>
+              <strong>Paula Duarte</strong>
+              <small>Estética</small>
+            </span>
+          </a>
+          <p>Biomédica esteta e tricologista em Divinópolis – MG.</p>
+        </div>
+        <div>
+          <strong>Contato</strong>
+          <p>Rua Candeias, nº 960, São José, Divinópolis – MG.</p>
+          <a data-instagram-link target="_blank" rel="noopener noreferrer" href="#">Instagram</a>
+        </div>
+        <div>
+          <strong>Privacidade</strong>
+          <p>O site não armazena dados. O formulário apenas abre o WhatsApp com a mensagem preenchida.</p>
+        </div>
+      </div>
+    </footer>
+
+    <a class="whatsapp-float" data-whatsapp="Olá, Paula! Vi seu site e gostaria de atendimento." href="#" aria-label="Falar pelo WhatsApp">
+      WhatsApp
+    </a>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
